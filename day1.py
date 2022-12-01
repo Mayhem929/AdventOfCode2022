@@ -23,6 +23,7 @@ def problem1():
 
 
 def problem2():
+
     input = read_input()
 
     index = 0
@@ -45,5 +46,15 @@ def problem2():
     return sum
 
 
+def version_corta_p1():
+    return max(list(map(lambda it: sum([int(i) for i in it.split("\n")]), ("".join(open("inputs/day1.txt").readlines())).split("\n\n"))))
+
+
+def version_corta_p2():
+    return sum(sorted(list(map(lambda it: sum([int(i) for i in it.split("\n")]), ("".join(open("inputs/day1.txt").readlines())).split("\n\n"))))[-3:])
+
+
 print(problem1())
+print(version_corta_p1())
 print(problem2())
+print(version_corta_p2())
