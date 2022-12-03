@@ -1,6 +1,6 @@
 def r():
-    with open("inputs/day2.txt") as fin:
-        lines = [line.strip() for line in fin]
+    with open("inputs/day2.txt") as file:
+        lines = [line.strip() for line in file]
 
     return lines
 
