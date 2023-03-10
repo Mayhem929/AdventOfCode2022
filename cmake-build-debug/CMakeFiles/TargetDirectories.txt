@@ -1,3 +1,0 @@
-C:/Users/adria/OneDrive/Escritorio/AdventOfCode2022py/cmake-build-debug/CMakeFiles/AdventOfCode2022py.dir
-C:/Users/adria/OneDrive/Escritorio/AdventOfCode2022py/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adria/OneDrive/Escritorio/AdventOfCode2022py/cmake-build-debug/CMakeFiles/rebuild_cache.dir

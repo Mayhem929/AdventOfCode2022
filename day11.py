@@ -124,12 +124,7 @@ def problem2():
                 else:
                     new = items[i][j] * mult + add
 
-                # mcm del test
-                # if new > 96577:
-                #     new = new%96577
-
-                if new > 9699690:
-                    new = new % 9699690
+                new = new % 9699690
 
                 if new % test == 0:
                     items[true].append(new)
